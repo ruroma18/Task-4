@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background: black url(./../img/header-bg.png);
+  width: 100vw;
+  height: 45vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-section {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.header-heading {
+  font-size: 40px;
+  padding-top: 120px;
+  font-weight: 800;
+}
+
+.header-text {
+  padding: 15px 50px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.header-btn {
+  color: white;
+  background-color: #333333;
+  border: 1px solid white;
+  padding: 20px 30px;
+}
+
+.header-btn:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+
+}
